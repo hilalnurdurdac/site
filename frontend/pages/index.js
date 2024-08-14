@@ -7,7 +7,7 @@ function HomePage() {
     <div>
       <h1>Hilal Nur DURDAÇ</h1>
       <nav>
-        <Link href="/about">Blog</Link> {/* Doğru kullanım */}
+        <Link href="/blog">Blog</Link> {/* Doğru kullanım */}
         <Link href="/photos">Photos</Link>
         <Link href="/videos">Videos</Link>
       </nav>

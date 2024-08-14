@@ -4,5 +4,6 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/videos": "pages/videos.js",
-  "/photos": "pages/photos.js"
+  "/photos": "pages/photos.js",
+  "/blog": "pages/blog.js"
 }
