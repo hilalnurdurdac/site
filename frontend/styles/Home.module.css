@@ -1,0 +1,26 @@
+/* styles/Home.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Sayfanın yüksekliğini viewport yüksekliği ile doldurur */
+  text-align: center;
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.nav a {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
