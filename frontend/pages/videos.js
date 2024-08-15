@@ -1,10 +1,16 @@
 import Link from 'next/link';
-import styles from '../styles/Videos.module.css'; // Update the CSS file
+import styles from '../styles/Videos.module.css'; // CSS dosyasının doğru olduğundan emin olun
 
 function VideosPage() {
   return (
     <div className={styles.container}>
       <h1>Videos</h1>
+      
+      {/* Add button for uploading the 10th video */}
+      <div className={styles.addVideoContainer}>
+        <button className={styles.addButton}>+</button>
+      </div>
+
       <nav className={styles.nav}>
         <Link href="/">Home</Link>
         <Link href="/blog">Blog</Link>
@@ -32,14 +38,10 @@ function VideosPage() {
             <p className={styles.videoDescription}>Video {index + 1} Description</p>
           </div>
         ))}
-
-        {/* Add button for uploading the 10th video */}
-        <div className={styles.addVideoContainer}>
-          <button className={styles.addButton}>+</button>
-        </div>
       </div>
     </div>
   );
 }
 
 export default VideosPage;
+
