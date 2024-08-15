@@ -1,54 +1,60 @@
 .container {
     text-align: center;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 20px;
   }
   
-  .tweets {
-    margin-bottom: 30px;
-  }
-  
-  .tweet {
-    background-color: #1DA1F2;
-    color: white;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    font-size: 1.1em;
-  }
-  
-  .addButton {
-    background-color: #1DA1F2;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 1.5em;
-    cursor: pointer;
-    margin-bottom: 30px;
-  }
-  
-  .articles {
-    display: flex;
-    overflow-x: auto;
-    gap: 20px;
-    padding: 10px;
-  }
-  
-  .article {
-    min-width: 200px;
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .nav {
+  .posts {
     margin-top: 20px;
   }
   
-  .nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #1DA1F2;
+  .post {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
   }
+  
+  .tweet {
+    font-style: italic;
+  }
+  
+  .article h2 {
+    margin-bottom: 5px;
+  }
+  
+  .addButton {
+    background-color: #0070f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .addButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .date {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .nav {
+    margin-top: 30px;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0070f3;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
