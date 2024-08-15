@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/videos": "pages/videos.js",
-  "/photos": "pages/photos.js",
-  "/blog": "pages/blog.js"
+  "/videos": "pages/videos.js"
 }
