@@ -1,55 +1,69 @@
+
 .container {
-    text-align: center;
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center text */
   }
   
+  .heading {
+    margin: 0; /* Remove default margin */
+  }
+  
+  
+  
   .posts {
-    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .post {
-    background-color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  
+  .tweet, .article {
+    padding: 10px;
     border: 1px solid #ccc;
-    padding: 15px;
-    margin: 10px;
     border-radius: 5px;
+    background: #f9f9f9;
   }
   
-  .tweet {
-    font-style: italic;
+  .tweet p, .article h2 {
+    margin: 0;
   }
   
-  .article h2 {
-    margin-bottom: 5px;
+  .tweet small, .article small {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #666;
   }
   
   .addButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
     background-color: #0070f3;
     color: white;
-    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
   }
   
   .addButton:hover {
     background-color: #005bb5;
   }
   
-  .date {
-    display: block;
-    margin-top: 10px;
-    font-size: 12px;
-    color: #555;
-  }
-  
   .nav {
-    margin-top: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
   }
   
   .nav a {
-    margin: 0 15px;
     text-decoration: none;
     color: #0070f3;
   }
