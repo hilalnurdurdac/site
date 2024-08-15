@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../styles/Photos.module.css'; // Update the CSS file
+import styles from '../styles/Photos.module.css'; // Ensure correct CSS file
 import { useState } from 'react';
 
 function PhotosPage() {
@@ -68,3 +68,4 @@ function PhotosPage() {
 }
 
 export default PhotosPage;
+
