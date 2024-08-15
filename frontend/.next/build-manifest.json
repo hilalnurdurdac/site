@@ -22,15 +22,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/photos": [
+    "/blog": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/photos.js"
-    ],
-    "/videos": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/videos.js"
+      "static/chunks/pages/blog.js"
     ]
   },
   "ampFirstPages": []

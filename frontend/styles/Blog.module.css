@@ -1,0 +1,54 @@
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .tweets {
+    margin-bottom: 30px;
+  }
+  
+  .tweet {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+  }
+  
+  .addButton {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .articles {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .article {
+    min-width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .nav {
+    margin-top: 20px;
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1DA1F2;
+  }
